@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		150843F73DD036043AC077EA /* Pods_Hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8175A616C20B9BDF282D462 /* Pods_Hackathon.framework */; };
+		759894132637761B00028168 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759894122637761B00028168 /* Teams.swift */; };
 		75A864F1263722CA00D769E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A864F0263722CA00D769E4 /* AppDelegate.swift */; };
 		75A864F3263722CA00D769E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A864F2263722CA00D769E4 /* SceneDelegate.swift */; };
 		75A864F5263722CA00D769E4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A864F4263722CA00D769E4 /* LoginViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		759894122637761B00028168 /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
 		75A864ED263722CA00D769E4 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A864F0263722CA00D769E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75A864F2263722CA00D769E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				75A864F0263722CA00D769E4 /* AppDelegate.swift */,
 				75A864F2263722CA00D769E4 /* SceneDelegate.swift */,
 				75C7EAE8263768870084F32E /* Team.swift */,
+				759894122637761B00028168 /* Teams.swift */,
 				75A864F4263722CA00D769E4 /* LoginViewController.swift */,
 				75C7EAE226375FE60084F32E /* TeamsListViewController.swift */,
 				75C7EAE5263763A80084F32E /* TeamDetailTableViewController.swift */,
@@ -239,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759894132637761B00028168 /* Teams.swift in Sources */,
 				75A864F5263722CA00D769E4 /* LoginViewController.swift in Sources */,
 				75A864F1263722CA00D769E4 /* AppDelegate.swift in Sources */,
 				75C7EAE9263768870084F32E /* Team.swift in Sources */,

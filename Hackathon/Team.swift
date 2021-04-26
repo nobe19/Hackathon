@@ -47,6 +47,21 @@ class Team {
         self.init(teamName: "", university: "", coordinate: CLLocationCoordinate2D(), projectName: "", projectDescription: "", createdOn: Date(), postingUserID: "", documentID: "")
     }
     
+    convenience init(dictionary: [String: Any]) {
+        let teamName = dictionary["teamName"] as! String? ?? ""
+        let university = dictionary["university"] as! String? ?? ""
+        let tempLatitude = dictionary["latitude"] as! CLLocationDegrees? ?? 0.0
+        let tempLongitude = dictionary["longitude"] as! CLLocationDegrees? ?? 0.0
+        let coordinate = CLLocationCoordinate2D(latitude: tempLatitude, longitude: tempLongitude)
+        let projectName = dictionary["projectName"] as! String? ?? ""
+        let projectDescription = dictionary["projectDescription"] as! String? ?? ""
+        let timeIntervalDate = dictionary["createdOn"] as! TimeInterval? ?? TimeInterval()
+        let createdOn = Date(timeIntervalSince1970: timeIntervalDate)
+        let postingUserID = dictionary["postingUserID"] as! String? ?? ""
+        
+        self.init(teamName: teamName, university: university, coordinate: coordinate, projectName: projectName, projectDescription: projectDescription, createdOn: createdOn, postingUserID: postingUserID, documentID: "")
+    }
+    
     func saveData(completion: @escaping  (Bool) -> ()) {
         let db = Firestore.firestore()
         //grab user ID
@@ -81,5 +96,4 @@ class Team {
             }
         }
     }
-    
 }
