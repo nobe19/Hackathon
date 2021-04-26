@@ -10,25 +10,31 @@
 		150843F73DD036043AC077EA /* Pods_Hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8175A616C20B9BDF282D462 /* Pods_Hackathon.framework */; };
 		75A864F1263722CA00D769E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A864F0263722CA00D769E4 /* AppDelegate.swift */; };
 		75A864F3263722CA00D769E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A864F2263722CA00D769E4 /* SceneDelegate.swift */; };
-		75A864F5263722CA00D769E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A864F4263722CA00D769E4 /* ViewController.swift */; };
+		75A864F5263722CA00D769E4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A864F4263722CA00D769E4 /* LoginViewController.swift */; };
 		75A864F8263722CA00D769E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A864F6263722CA00D769E4 /* Main.storyboard */; };
 		75A864FA263722CC00D769E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A864F9263722CC00D769E4 /* Assets.xcassets */; };
 		75A864FD263722CC00D769E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A864FB263722CC00D769E4 /* LaunchScreen.storyboard */; };
 		75C7EADB2637245A0084F32E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75C7EADA2637245A0084F32E /* GoogleService-Info.plist */; };
 		75C7EADE263726C20084F32E /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7EADD263726C20084F32E /* APIKeys.swift */; };
+		75C7EAE326375FE60084F32E /* TeamsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7EAE226375FE60084F32E /* TeamsListViewController.swift */; };
+		75C7EAE6263763A80084F32E /* TeamDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7EAE5263763A80084F32E /* TeamDetailTableViewController.swift */; };
+		75C7EAE9263768870084F32E /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C7EAE8263768870084F32E /* Team.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75A864ED263722CA00D769E4 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A864F0263722CA00D769E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75A864F2263722CA00D769E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75A864F4263722CA00D769E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75A864F4263722CA00D769E4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		75A864F7263722CA00D769E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75A864F9263722CC00D769E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75A864FC263722CC00D769E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75A864FE263722CC00D769E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75C7EADA2637245A0084F32E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		75C7EADD263726C20084F32E /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		75C7EAE226375FE60084F32E /* TeamsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListViewController.swift; sourceTree = "<group>"; };
+		75C7EAE5263763A80084F32E /* TeamDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailTableViewController.swift; sourceTree = "<group>"; };
+		75C7EAE8263768870084F32E /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		87BCD878F3D21BCC5C49DBAE /* Pods-Hackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.release.xcconfig"; path = "Target Support Files/Pods-Hackathon/Pods-Hackathon.release.xcconfig"; sourceTree = "<group>"; };
 		941481A40D525D175950FDAB /* Pods-Hackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.debug.xcconfig"; path = "Target Support Files/Pods-Hackathon/Pods-Hackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		B8175A616C20B9BDF282D462 /* Pods_Hackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +83,10 @@
 			children = (
 				75A864F0263722CA00D769E4 /* AppDelegate.swift */,
 				75A864F2263722CA00D769E4 /* SceneDelegate.swift */,
-				75A864F4263722CA00D769E4 /* ViewController.swift */,
+				75C7EAE8263768870084F32E /* Team.swift */,
+				75A864F4263722CA00D769E4 /* LoginViewController.swift */,
+				75C7EAE226375FE60084F32E /* TeamsListViewController.swift */,
+				75C7EAE5263763A80084F32E /* TeamDetailTableViewController.swift */,
 				75A864F6263722CA00D769E4 /* Main.storyboard */,
 				75A864F9263722CC00D769E4 /* Assets.xcassets */,
 				75A864FB263722CC00D769E4 /* LaunchScreen.storyboard */,
@@ -230,9 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75A864F5263722CA00D769E4 /* ViewController.swift in Sources */,
+				75A864F5263722CA00D769E4 /* LoginViewController.swift in Sources */,
 				75A864F1263722CA00D769E4 /* AppDelegate.swift in Sources */,
+				75C7EAE9263768870084F32E /* Team.swift in Sources */,
 				75C7EADE263726C20084F32E /* APIKeys.swift in Sources */,
+				75C7EAE6263763A80084F32E /* TeamDetailTableViewController.swift in Sources */,
+				75C7EAE326375FE60084F32E /* TeamsListViewController.swift in Sources */,
 				75A864F3263722CA00D769E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
